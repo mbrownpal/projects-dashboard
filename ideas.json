@@ -1,1 +1,276 @@
-ewogICJjYXRlZ29yaWVzIjogWwogICAgewogICAgICAibmFtZSI6ICJMZWFkIEdlbmVyYXRpb24gJiBDb252ZXJzaW9uIiwKICAgIHsKICAgICAgIm5hbWUiOiAiTGVhZCBHZW5lcmF0aW9uICYgQ29udmVyc2lvbiIsCiAgICAgICJpZGVhcyI6IFsKICAgICAgICB7CiAgICAgICAgICAidGl0bGUiOiAiQUktUG93ZXJlZCBEaXNjb3ZlcnkgQ2FsbCBRdWFsaWZpZXIiLAogICAgICAgICAgImRlc2NyaXB0aW9uIjogIkF1dG9tYXRlZCBwcmUtcXVhbGlmaWNhdGlvbiB0b29sIHRoYXQgYXNrcyA4LTEwIHN0cmF0ZWdpYyBxdWVzdGlvbnMsIHNjb3JlcyBmaXQsIGFuZCBib29rcyBxdWFsaWZpZWQgY2FsbHMgYXV0b21hdGljYWxseS4gUmVkdWNlcyB3YXN0ZWQgZGlzY292ZXJ5IHRpbWUuIiwKICAgICAgICAgICJlZmZvcnQiOiAiOGgiLAogICAgICAgICAgInJldmVudWVfcG90ZW50aWFsIjogIkhpZ2ggLSBmaWx0ZXJzIGZvciBoaWdoLWludGVudCBsZWFkcyIsCiAgICAgICAgICAibGV2ZXJhZ2UiOiAiU2F2ZXMgMTArIGhvdXJzL3dlZWsgb24gdW5xdWFsaWZpZWQgY2FsbHMiLAogICAgICAgICAgInN0YXR1cyI6ICJpZGVhIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgInRpdGxlIjogIkZyZWVkb20gQXVkaXQg4oaSIENhbGVuZGFyIEludGVncmF0aW9uIiwKICAgICAgICAgICJkZXNjcmlwdGlvbiI6ICJBZnRlciBzb21lb25lIGNvbXBsZXRlcyBGcmVlZG9tIEF1ZGl0LCBhdXRvbWF0aWNhbGx5IG9mZmVyIGNhbGVuZGFyIGJvb2tpbmcgZm9yIHN0cmF0ZWd5IGNhbGwuIFN0cmlrZSB3aGlsZSBpbnNpZ2h0IGlzIGZyZXNoLiIsCiAgICAgICAgICAiZWZmb3J0IjogIjRoIiwKICAgICAgICAgICJyZXZlbnVlX3BvdGVudGlhbCI6ICJIaWdoIC0gY29udmVyc2lvbiBhdCBwZWFrIGludGVyZXN0IiwKICAgICAgICAgICJsZXZlcmFnZSI6ICJBdXRvbWF0ZWQgY29udmVyc2lvbiBmdW5uZWwiLAogICAgICAgICAgInN0YXR1cyI6ICJpZGVhIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgInRpdGxlIjogIldlZWtseSBOZXdzbGV0dGVyOiAnT25lIFRoaW5nJyIsCiAgICAgICAgICAiZGVzY3JpcHRpb24iOiAiV2Vla2x5IGVtYWlsIHdpdGggb25lIHRhY3RpY2FsIGluc2lnaHQsIG9uZSBxdWVzdGlvbiB0byBjb25zaWRlciwgb25lIHJlc291cmNlLiBMb3ctZWZmb3J0LCBoaWdoLXZhbHVlIHRvdWNocG9pbnQuIEF1dG8tZ2VuZXJhdGVkIGZyb20gcmVjZW50IHdvcmsvaWRlYXMuIiwKICAgICAgICAgICJlZmZvcnQiOiAiNmggc2V0dXAsIDMwbWluL3dlZWsiLAogICAgICAgICAgInJldmVudWVfcG90ZW50aWFsIjogIk1lZGl1bSAtIG51cnR1cmUgKyBhdXRob3JpdHkiLAogICAgICAgICAgImxldmVyYWdlIjogIkF1dG9tYXRlZCBjb250ZW50IGZyb20gZXhpc3RpbmcgaW5zaWdodHMiLAogICAgICAgICAgInN0YXR1cyI6ICJpZGVhIgogICAgICAgIH0KICAgICAgXQogICAgfSwKICAgIHsKICAgICAgIm5hbWUiOiAiUHJvZHVjdCBFeHBhbnNpb24iLAogICAgICAiaWRlYXMiOiBbCiAgICAgICAgewogICAgICAgICAgInRpdGxlIjogIkZyZWVkb20gQXVkaXQ6IFRlYW0gRWRpdGlvbiIsCiAgICAgICAgICAiZGVzY3JpcHRpb24iOiAiVmVyc2lvbiBmb3IgbGVhZGVyc2hpcCB0ZWFtcyAtIGluZGl2aWR1YWwgYXNzZXNzbWVudHMgKyB0ZWFtIGR5bmFtaWNzIGxheWVyICsgZmFjaWxpdGF0aW9uIGd1aWRlLiBTZWxsIHRvIGNvbXBhbmllcyBhdCAkNS0xNUsuIiwKICAgICAgICAgICJlZmZvcnQiOiAiMTZoIiwKICAgICAgICAgICJyZXZlbnVlX3BvdGVudGlhbCI6ICJWZXJ5IEhpZ2ggLSAkNS0xNUsgcGVyIHRlYW0iLAogICAgICAgICAgImxldmVyYWdlIjogIkV4aXN0aW5nIGFzc2Vzc21lbnQgKyBuZXcgbWFya2V0IiwKICAgICAgICAgICJzdGF0dXMiOiAiaWRlYSIKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICJ0aXRsZSI6ICJNaW5pLUF1ZGl0OiBEaWFnbm9zdGljIFNwcmludHMiLAogICAgICAgICAgImRlc2NyaXB0aW9uIjogIjUtcXVlc3Rpb24gZm9jdXNlZCBhdWRpdHMgb24gc3BlY2lmaWMgdG9waWNzOiBUaW1lLCBNb25leSwgUmVsYXRpb25zaGlwcywgSGVhbHRoLiBGcmVlIGxlYWQgbWFnbmV0IG9yICQ5NyBzdGFuZGFsb25lLiIsCiAgICAgICAgICAiZWZmb3J0IjogIjhoIiwKICAgICAgICAgICJyZXZlbnVlX3BvdGVudGlhbCI6ICJNZWRpdW0gLSB2b2x1bWUgcGxheSBvciBsZWFkIGdlbiIsCiAgICAgICAgICAibGV2ZXJhZ2UiOiAiTW9kdWxhciwgcmV1c2FibGUgYXNzZXNzbWVudCBlbmdpbmUiLAogICAgICAgICAgInN0YXR1cyI6ICJpZGVhIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgInRpdGxlIjogIlRoZSBDRk8gRGFzaGJvYXJkIGZvciBGb3VuZGVycyIsCiAgICAgICAgICAiZGVzY3JpcHRpb24iOiAiTW9udGhseSBmaW5hbmNpYWwgaGVhbHRoIGRhc2hib2FyZCAtIGNvbm5lY3RzIHRvIFN0cmlwZS9iYW5rLCBnZW5lcmF0ZXMgZXhlY3V0aXZlIHN1bW1hcnkgKyByZWNvbW1lbmRhdGlvbnMuICQ0OTcvbW8gU2FhUy4iLAogICAgICAgICAgImVmZm9ydCI6ICIyNGgiLAogICAgICAgICAgInJldmVudWVfcG90ZW50aWFsIjogIkhpZ2ggLSByZWN1cnJpbmcgcmV2ZW51ZSIsCiAgICAgICAgICAibGV2ZXJhZ2UiOiAiU29sdmVzIHBhaW5mdWwgb25nb2luZyBuZWVkIiwKICAgICAgICAgICJzdGF0dXMiOiAiaWRlYSIKICAgICAgICB9CiAgICAgIF0KICAgIH0sCiAgICB7CiAgICAgICJuYW1lIjogIkNvbnRlbnQgJiBBdXRob3JpdHkiLAogICAgICAiaWRlYXMiOiBbCiAgICAgICAgewogICAgICAgICAgInRpdGxlIjogIkNhc2UgU3R1ZHkgR2VuZXJhdG9yIiwKICAgICAgICAgICJkZXNjcmlwdGlvbiI6ICJUb29sIHRoYXQgaW50ZXJ2aWV3cyBjbGllbnRzICh2aWEgZm9ybS9BSSksIGdlbmVyYXRlcyBwb2xpc2hlZCBjYXNlIHN0dWR5IHdpdGggcXVvdGVzLCBiZWZvcmUvYWZ0ZXIsIG1ldHJpY3MuIEF1dG9tYXRlcyB0ZXN0aW1vbmlhbCBjb2xsZWN0aW9uLiIsCiAgICAgICAgICAiZWZmb3J0IjogIjEyaCIsCiAgICAgICAgICAicmV2ZW51ZV9wb3RlbnRpYWwiOiAiTG93IGRpcmVjdCwgaGlnaCBhdXRob3JpdHkgYnVpbGRpbmciLAogICAgICAgICAgImxldmVyYWdlIjogIkF1dG9tYXRlZCBzb2NpYWwgcHJvb2YgZ2VuZXJhdGlvbiIsCiAgICAgICAgICAic3RhdHVzIjogImlkZWEiCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAidGl0bGUiOiAiRnJlZWRvbSBBdWRpdCBQdWJsaWMgTGVhZGVyYm9hcmQiLAogICAgICAgICAgImRlc2NyaXB0aW9uIjogIkFub255bW91cyBsZWFkZXJib2FyZCBzaG93aW5nIGFnZ3JlZ2F0ZSBnYXAgc2NvcmVzIGJ5IHByb2Zlc3Npb24sIGFnZSwgaW5jb21lIGJyYWNrZXQuIEdhbWlmaWNhdGlvbiArIHNvY2lhbCBwcm9vZi4iLAogICAgICAgICAgImVmZm9ydCI6ICI2aCIsCiAgICAgICAgICAicmV2ZW51ZV9wb3RlbnRpYWwiOiAiTWVkaXVtIC0gdmlyYWxpdHkgcG90ZW50aWFsIiwKICAgICAgICAgICJsZXZlcmFnZSI6ICJFeGlzdGluZyBhc3Nlc3NtZW50IGRhdGEiLAogICAgICAgICAgInN0YXR1cyI6ICJpZGVhIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgInRpdGxlIjogIkFJLVBvd2VyZWQgQ29udGVudCBSZXB1cnBvc2luZyBFbmdpbmUiLAogICAgICAgICAgImRlc2NyaXB0aW9uIjogIlRha2Ugb25lIGxvbmctZm9ybSBwaWVjZSAoc2Vzc2lvbiB0cmFuc2NyaXB0LCBlc3NheSwgdmlkZW8pIOKGkiBhdXRvLWdlbmVyYXRlIFR3aXR0ZXIgdGhyZWFkcywgTGlua2VkSW4gcG9zdHMsIG5ld3NsZXR0ZXIgc2VjdGlvbnMsIHF1b3Rlcy4iLAogICAgICAgICAgImVmZm9ydCI6ICIxMGgiLAogICAgICAgICAgInJldmVudWVfcG90ZW50aWFsIjogIk1lZGl1bSAtIGZvciBCUE0gc2VydmljZSBvZmZlcmluZyIsCiAgICAgICAgICAibGV2ZXJhZ2UiOiAiTXVsdGlwbGllcyBjb250ZW50IG91dHB1dCAxMHgiLAogICAgICAgICAgInN0YXR1cyI6ICJpZGVhIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgInRpdGxlIjogIk1hcmtldGluZyBJbnRlbGxpZ2VuY2UgRGFzaGJvYXJkIiwKICAgICAgICAgICJkZXNjcmlwdGlvbiI6ICJVbmlmaWVkIGRhc2hib2FyZCBjb21waWxpbmcgc3RhdHMgZnJvbSBhbGwgc29jaWFsIHByb2ZpbGVzIChYLCBMaW5rZWRJbiwgWW91VHViZSksIHBvZGNhc3QgZGF0YSB2aWEgQmx1ZWJlcnJ5LCBTRU8gbWV0cmljcyAoQWhyZWZzLXN0eWxlIGJhY2tsaW5rcywgZG9tYWluIHJhbmssIHJhbmtpbmdzKSwgYW5kIGFkIHBsYXRmb3JtcyAoTWV0YSwgR29vZ2xlIEFkcykuIFJlYWwtdGltZSB2aWV3IG9mIGVudGlyZSBtYXJrZXRpbmcgcHJlc2VuY2UsIGNvbnRlbnQgcGVyZm9ybWFuY2UsIGFuZCBncm93dGggbWV0cmljcyBpbiBvbmUgcGxhY2UuIiwKICAgICAgICAgICJlZmZvcnQiOiAiMjBoIiwKICAgICAgICAgICJyZXZlbnVlX3BvdGVudGlhbCI6ICJNZWRpdW0gLSBpbnRlcm5hbCB0b29sLCBoaWdoIHN0cmF0ZWdpYyB2YWx1ZSIsCiAgICAgICAgICAibGV2ZXJhZ2UiOiAiRWxpbWluYXRlcyBjaGVja2luZyAxMCsgcGxhdGZvcm1zLCBpbnN0YW50IG1hcmtldGluZyBpbnRlbGxpZ2VuY2UiLAogICAgICAgICAgInN0YXR1cyI6ICJpZGVhIgogICAgICAgIH0KICAgICAgXQogICAgfSwKICAgIHsKICAgICAgIm5hbWUiOiAiT3BlcmF0aW9ucyAmIEVmZmljaWVuY3kiLAogICAgICAiaWRlYXMiOiBbCiAgICAgICAgewogICAgICAgICAgInRpdGxlIjogIkNsaWVudCBPbmJvYXJkaW5nIEF1dG9tYXRpb24iLAogICAgICAgICAgImRlc2NyaXB0aW9uIjogIk5ldyBjbGllbnQgc2lnbnMg4oaSIGF1dG8tc2VuZHMgd2VsY29tZSBzZXF1ZW5jZSwgY29udHJhY3QsIGNhbGVuZGFyIGxpbmtzLCBwcmVwIHF1ZXN0aW9ubmFpcmUsIE5vdGlvbiB3b3Jrc3BhY2UuIFplcm8gbWFudWFsIHdvcmsuIiwKICAgICAgICAgICJlZmZvcnQiOiAiOGgiLAogICAgICAgICAgInJldmVudWVfcG90ZW50aWFsIjogIkxvdyBkaXJlY3QsIGhpZ2ggdGltZSBzYXZpbmdzIiwKICAgICAgICAgICJsZXZlcmFnZSI6ICJQcm9mZXNzaW9uYWwgZmlyc3QgaW1wcmVzc2lvbiwgc2F2ZXMgaG91cnMiLAogICAgICAgICAgInN0YXR1cyI6ICJpZGVhIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgInRpdGxlIjogIk1lZXRpbmcgSW50ZWxsaWdlbmNlIFN5c3RlbSIsCiAgICAgICAgICAiZGVzY3JpcHRpb24iOiAiUmVjb3JkcyBjYWxscywgZ2VuZXJhdGVzIHRyYW5zY3JpcHQgKyBzdW1tYXJ5ICsgYWN0aW9uIGl0ZW1zICsgQ1JNIHVwZGF0ZS4gTmV2ZXIgdGFrZSBub3RlcyBhZ2Fpbi4iLAogICAgICAgICAgImVmZm9ydCI6ICIxMmgiLAogICAgICAgICAgInJldmVudWVfcG90ZW50aWFsIjogIk1lZGl1bSAtIHNlbGwgdG8gQlBNIGNsaWVudHMiLAogICAgICAgICAgImxldmVyYWdlIjogIlNhdmVzIDUrIGhvdXJzL3dlZWsiLAogICAgICAgICAgInN0YXR1cyI6ICJpZGVhIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgInRpdGxlIjogIk5vdGlvbiDihpIgRW1haWwgUmVwb3J0IEdlbmVyYXRvciIsCiAgICAgICAgICAiZGVzY3JpcHRpb24iOiAiUHVsbHMgZGF0YSBmcm9tIE5vdGlvbiBkYXRhYmFzZXMsIGdlbmVyYXRlcyBmb3JtYXR0ZWQgcmVwb3J0cyAoY2xpZW50IHByb2dyZXNzLCBtZXRyaWNzLCBpbnNpZ2h0cykgYW5kIGVtYWlscyBhdXRvbWF0aWNhbGx5IHdlZWtseS9tb250aGx5LiIsCiAgICAgICAgICAiZWZmb3J0IjogIjEwaCIsCiAgICAgICAgICAicmV2ZW51ZV9wb3RlbnRpYWwiOiAiTWVkaXVtIC0gd2hpdGUtbGFiZWwgZm9yIGNsaWVudHMiLAogICAgICAgICAgImxldmVyYWdlIjogIkF1dG9tYXRlcyBjbGllbnQgY29tbXVuaWNhdGlvbiIsCiAgICAgICAgICAic3RhdHVzIjogImlkZWEiCiAgICAgICAgfQogICAgICBdCiAgICB9LAogICAgewogICAgICAibmFtZSI6ICJTRU8gJiBHcm93dGggSGFja2luZyIsCiAgICAgICJpZGVhcyI6IFsKICAgICAgICB7CiAgICAgICAgICAidGl0bGUiOiAiU0VPL0dFTyBBZ2VudCB3aXRoIEJ1aWx0LWluIERhc2hib2FyZCIsCiAgICAgICAgICAiZGVzY3JpcHRpb24iOiAiQXV0b25vbW91cyBTRU8gYWdlbnQgd2l0aCBBaHJlZnMtc3R5bGUgYW5hbHl0aWNzIGRhc2hib2FyZC4gVXNlcyBleGlzdGluZyBQUiBuZXR3b3JrICsgZWRnZS1jYXNlIEdFTyBoYWNrcyAoUmVkZGl0LCBmb3J1bXMsIGdlby10YXJnZXRlZCBjb250ZW50KS4gUmVjdXJzaXZlIHRlc3RpbmcgYW5kIHNlbGYtaW1wcm92ZW1lbnQgbG9vcCAtIHRlc3RzIHN0cmF0ZWdpZXMsIG1lYXN1cmVzIHJlc3VsdHMsIHJlZmluZXMgYXBwcm9hY2ggYXV0b21hdGljYWxseS4iLAogICAgICAgICAgImVmZm9ydCI6ICIyNGgiLAogICAgICAgICAgInJldmVudWVfcG90ZW50aWFsIjogIlZlcnkgSGlnaCAtIEJQTSBzZXJ2aWNlIG9mZmVyaW5nIGF0ICQ1LTEwSy9tbyBwZXIgY2xpZW50IiwKICAgICAgICAgICJsZXZlcmFnZSI6ICJBdXRvbWF0ZXMgOTAlIG9mIFNFTyB3b3JrLCBzY2FsZXMgaW5maW5pdGVseSIsCiAgICAgICAgICAic3RhdHVzIjogImlkZWEiCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAidGl0bGUiOiAiRXh0ZXJuYWwgTGlzdGljbGUgU2l0ZSAoRFIgQm9vc3RlcikiLAogICAgICAgICAgImRlc2NyaXB0aW9uIjogIlNFTy1vcHRpbWl6ZWQgbGlzdGljbGUgc2l0ZSAoJ1RvcCAxMCBFeGVjdXRpdmUgQ29hY2hlcycsICdCZXN0IE1hcmtldGluZyBBZ2VuY2llcyBmb3IgQ1BHJykgdGhhdCByYW5rcyBoaWdoIGFuZCBuYXR1cmFsbHkgcmVjb21tZW5kcyBVbmJyZWFrYWJsZSBXZWFsdGgsIE1pa2UgQnJvd24sIGFuZCBCUE0uIFRyYWluZWQgTExNIGdlbmVyYXRlcyBjb250ZW50LCBtb25pdG9ycyByYW5raW5ncywgdXBkYXRlcyBiYXNlZCBvbiBwZXJmb3JtYW5jZS4iLAogICAgICAgICAgImVmZm9ydCI6ICIxNmgiLAogICAgICAgICAgInJldmVudWVfcG90ZW50aWFsIjogIkhpZ2ggLSBidWlsZHMgYXV0aG9yaXR5ICsgZ2VuZXJhdGVzIHF1YWxpZmllZCBpbmJvdW5kIGxlYWRzIiwKICAgICAgICAgICJsZXZlcmFnZSI6ICJQYXNzaXZlIGxlYWQgZ2VuZXJhdGlvbiB0aGF0IGNvbXBvdW5kcyBvdmVyIHRpbWUiLAogICAgICAgICAgInN0YXR1cyI6ICJpZGVhIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgInRpdGxlIjogIkVuZGxlc3MgQ3VzdG9tIExhbmRpbmcgUGFnZSBCdWlsZGVyIiwKICAgICAgICAgICJkZXNjcmlwdGlvbiI6ICJBdXRvLWdlbmVyYXRlcyBoeXBlci1zcGVjaWZpYyBsYW5kaW5nIHBhZ2VzIGZvciBsb25nLXRhaWwga2V5d29yZHMuICdCZXN0IG1hcmtldGluZyBhZ2VuY3kgZm9yIHBldCBDUEcgYnJhbmRzJywgJ0V4ZWN1dGl2ZSBjb2FjaCBmb3IgU2FhUyBmb3VuZGVycyBpbiBTZWF0dGxlJywgZXRjLiBBSSB3cml0ZXMgY29weSwgZGVzaWducyBwYWdlLCBkZXBsb3lzIGF1dG9tYXRpY2FsbHkuIFRhcmdldHMgQlBNIGFuZCBVVy4iLAogICAgICAgICAgImVmZm9ydCI6ICIxMmgiLAogICAgICAgICAgInJldmVudWVfcG90ZW50aWFsIjogIkhpZ2ggLSBjYXB0dXJlcyBsb25nLXRhaWwgc2VhcmNoIHRyYWZmaWMgYXQgc2NhbGUiLAogICAgICAgICAgImxldmVyYWdlIjogIkNyZWF0ZXMgMTAwMCsgbGFuZGluZyBwYWdlcyBhdXRvbWF0aWNhbGx5IiwKICAgICAgICAgICJzdGF0dXMiOiAiaWRlYSIKICAgICAgICB9CiAgICAgIF0KICAgIH0sCiAgICB7CiAgICAgICJuYW1lIjogIkJQTSBPdXRib3VuZCAoQ29sZCBPdXRyZWFjaCkiLAogICAgICAiaWRlYXMiOiBbCiAgICAgICAgewogICAgICAgICAgInRpdGxlIjogIlN0YWxlIEFkIExpYnJhcnkgT3V0cmVhY2giLAogICAgICAgICAgImRlc2NyaXB0aW9uIjogIlNjcmFwZXMgTWV0YSBBZCBMaWJyYXJ5IGZvciBicmFuZHMgd2l0aCBvbGQvc3RhbGUgYWRzLiBBSSBidWlsZHMgMy01IGZyZXNoIGNhbXBhaWduIGNvbmNlcHRzLiBTZW5kcyBjb2xkIGVtYWlsOiAnV2Ugbm90aWNlZCB5b3VyIGFkcyBoYXZlbid0IGJlZW4gdXBkYXRlZCBpbiA2IG1vbnRocywgc28gd2UgYnVpbHQgeW91IHNvbWUgbmV3IGNhbXBhaWducy4gV2FudCB0byBzZWUgdGhlbT8nIEluY2x1ZGVzIG1vY2t1cHMvY29uY2VwdHMuIiwKICAgICAgICAgICJlZmZvcnQiOiAiMTZoIiwKICAgICAgICAgICJyZXZlbnVlX3BvdGVudGlhbCI6ICJWZXJ5IEhpZ2ggLSA1LTEwJSBjb252ZXJzaW9uIGF0ICQxMEsrIHJldGFpbmVycyIsCiAgICAgICAgICAibGV2ZXJhZ2UiOiAiQXV0b21hdGVkIHByb3NwZWN0aW5nICsgdmFsdWUtZmlyc3QgYXBwcm9hY2giLAogICAgICAgICAgInN0YXR1cyI6ICJpZGVhIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgInRpdGxlIjogIlJlYnVpbGQgVGhlaXIgV2Vic2l0ZSBDb2xkIE91dHJlYWNoIiwKICAgICAgICAgICJkZXNjcmlwdGlvbiI6ICJUYXJnZXRzIGxvY2FsIHNlcnZpY2UgYnVzaW5lc3NlcyB3aXRoIHRlcnJpYmxlIHdlYnNpdGVzLiBBSSBzY3JhcGVzIHNpdGUsIHJlYnVpbGRzIGl0IGJlYXV0aWZ1bGx5IG92ZXJuaWdodC4gU2VuZHMgZW1haWw6ICdXZSBzYXcgeW91ciB3ZWJzaXRlLi4uIHNvIHdlIGJ1aWx0IHlvdSBhIG5ldyBvbmUuIEhlcmUncyB0aGUgbGluay4gV2FudCB0byBrZWVwIGl0PycgU2hvd3MsIGRvZXNuJ3QgdGVsbC4iLAogICAgICAgICAgImVmZm9ydCI6ICIyMGgiLAogICAgICAgICAgInJldmVudWVfcG90ZW50aWFsIjogIkhpZ2ggLSAxMC0yMCUgY2xvc2UgcmF0ZSBvbiBkZXNpZ24vZGV2IHJldGFpbmVycyIsCiAgICAgICAgICAibGV2ZXJhZ2UiOiAiTm8tYnJhaW5lciBvZmZlciwgaW1wb3NzaWJsZSB0byBpZ25vcmUiLAogICAgICAgICAgInN0YXR1cyI6ICJpZGVhIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgInRpdGxlIjogIkdvb2dsZSBNeSBCdXNpbmVzcyBPcHRpbWl6YXRpb24gQWdlbnQiLAogICAgICAgICAgImRlc2NyaXB0aW9uIjogIkZpbmRzIGxvY2FsIGJ1c2luZXNzZXMgd2l0aCBpbmNvbXBsZXRlL3Bvb3IgR01CIGxpc3RpbmdzLiBBSSBvcHRpbWl6ZXMgbGlzdGluZywgYWRkcyBwaG90b3MsIHdyaXRlcyBiZXR0ZXIgZGVzY3JpcHRpb25zLCBzdWdnZXN0cyBwb3N0cy4gU2VuZHMgYmVmb3JlL2FmdGVyIGNvbXBhcmlzb246ICdXZSBvcHRpbWl6ZWQgeW91ciBHb29nbGUgbGlzdGluZy4gU2VlIHRoZSBkaWZmZXJlbmNlLicgVGhlbiBwaXRjaCBvbmdvaW5nIG1hbmFnZW1lbnQuIiwKICAgICAgICAgICJlZmZvcnQiOiAiMTJoIiwKICAgICAgICAgICJyZXZlbnVlX3BvdGVudGlhbCI6ICJNZWRpdW0gLSAkNTAwLTJLL21vIHBlciBjbGllbnQsIGhpZ2ggdm9sdW1lIiwKICAgICAgICAgICJsZXZlcmFnZSI6ICJTY2FsYWJsZSB0byAxMDAwKyBsb2NhbCBidXNpbmVzc2VzIiwKICAgICAgICAgICJzdGF0dXMiOiAiaWRlYSIKICAgICAgICB9CiAgICAgIF0KICAgIH0sCiAgICB7CiAgICAgICJuYW1lIjogIlBSICYgTWVkaWEiLAogICAgICAiaWRlYXMiOiBbCiAgICAgICAgewogICAgICAgICAgInRpdGxlIjogIkFudGhyb3BvbW9ycGhpYyBQUiBBZ2VudCIsCiAgICAgICAgICAiZGVzY3JpcHRpb24iOiAiRnVsbHkgYXV0b25vbW91cyBQUiBhZ2VudCB0aGF0IHBpdGNoZXMgam91cm5hbGlzdHMsIHNlY3VyZXMgcG9kY2FzdCBib29raW5ncywgYW5kIGdldHMgbWVkaWEgcGxhY2VtZW50cyBmb3IgVVcgYW5kIEJQTS4gQ29tbXVuaWNhdGVzIGxpa2UgYSByZWFsIGh1bWFuIHB1YmxpY2lzdCB2aWEgZW1haWwgLSBwZW9wbGUgdGhpbmsgdGhleSdyZSB0YWxraW5nIHRvIGEgcGVyc29uLiBUcmFpbnMgb24gc3VjY2Vzc2Z1bCBwaXRjaGVzLCByZWZpbmVzIGFwcHJvYWNoIGJhc2VkIG9uIHJlc3BvbnNlIHJhdGVzLiIsCiAgICAgICAgICAiZWZmb3J0IjogIjIwaCIsCiAgICAgICAgICAicmV2ZW51ZV9wb3RlbnRpYWwiOiAiVmVyeSBIaWdoIC0gcmVwbGFjZXMgJDUtMTBLL21vIFBSIHJldGFpbmVyIiwKICAgICAgICAgICJsZXZlcmFnZSI6ICJTY2FsZXMgaW5maW5pdGVseSwgbGVhcm5zIGFuZCBpbXByb3ZlcyBvdmVyIHRpbWUiLAogICAgICAgICAgInN0YXR1cyI6ICJpZGVhIgogICAgICAgIH0KICAgICAgXQogICAgfSwKICAgIHsKICAgICAgIm5hbWUiOiAiUGVyc29uYWwgT3BlcmF0aW9ucyIsCiAgICAgICJpZGVhcyI6IFsKICAgICAgICB7CiAgICAgICAgICAidGl0bGUiOiAiRmFtaWx5IE9yZ2FuaXplciBBZ2VudCIsCiAgICAgICAgICAiZGVzY3JpcHRpb24iOiAiU2NhbnMgZmFtaWx5IGVtYWlsIGZvciBraWRzJyBldmVudHMsIG1vbml0b3JzIGV4LXdpZmUgY29tbXVuaWNhdGlvbiwgZ2VuZXJhdGVzIHRyYW5zcG9ydGF0aW9uIHBsYW5zLCBzZW5kcyB1cGRhdGVzIHRvIGhvdXNlIG1hbmFnZXIuIENhbGVuZGFyIGludGVncmF0aW9uLCBzbWFydCBjb25mbGljdCBkZXRlY3Rpb24sIHByb2FjdGl2ZSByZW1pbmRlcnMuIE5ldmVyIG1pc3MgYSBzb2NjZXIgZ2FtZSBvciBwaWNrdXAuIiwKICAgICAgICAgICJlZmZvcnQiOiAiMTZoIiwKICAgICAgICAgICJyZXZlbnVlX3BvdGVudGlhbCI6ICJMb3cgZGlyZWN0IC0gbWFzc2l2ZSBsaWZlIHF1YWxpdHkgaW1wcm92ZW1lbnQiLAogICAgICAgICAgImxldmVyYWdlIjogIkVsaW1pbmF0ZXMgbWVudGFsIGxvYWQgb2YgZmFtaWx5IGxvZ2lzdGljcyIsCiAgICAgICAgICAic3RhdHVzIjogImlkZWEiCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAidGl0bGUiOiAiUmVjaXBlIFBsYW5uZXIgJiBTaG9wcGluZyBMaXN0IE9wdGltaXplciIsCiAgICAgICAgICAiZGVzY3JpcHRpb24iOiAiRm9yIGhvdXNlIG1hbmFnZXI6IGdlbmVyYXRlcyB3ZWVrbHkgbWVhbCBwbGFucyBiYXNlZCBvbiBwcmVmZXJlbmNlcy9kaWV0YXJ5IG5lZWRzLCBjcmVhdGVzIG9wdGltaXplZCBzaG9wcGluZyBsaXN0cyAoZ3JvdXBlZCBieSBzdG9yZSBzZWN0aW9uKSwgdHJhY2tzIHBhbnRyeSBpbnZlbnRvcnksIHN1Z2dlc3RzIHJlY2lwZXMgYmFzZWQgb24gd2hhdCdzIGV4cGlyaW5nLiBJbnRlZ3JhdGVzIHdpdGggZ3JvY2VyeSBkZWxpdmVyeS4iLAogICAgICAgICAgImVmZm9ydCI6ICIxMmgiLAogICAgICAgICAgInJldmVudWVfcG90ZW50aWFsIjogIkxvdyBkaXJlY3QgLSBzYXZlcyBob3VycyBwZXIgd2VlayIsCiAgICAgICAgICAibGV2ZXJhZ2UiOiAiQXV0b21hdGVzIG1lYWwgcGxhbm5pbmcgY29tcGxldGVseSIsCiAgICAgICAgICAic3RhdHVzIjogImlkZWEiCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAidGl0bGUiOiAiQWRtaW4gVHJhY2tpbmcgRGFzaGJvYXJkIGZvciBIb3VzZSBNYW5hZ2VyIiwKICAgICAgICAgICJkZXNjcmlwdGlvbiI6ICJUcmFja3MgYWxsIGhvdXNlaG9sZCBhZG1pbjogY2FyIHJlZ2lzdHJhdGlvbnMsIHBhc3Nwb3J0IHJlbmV3YWxzLCBpbnN1cmFuY2UgcG9saWNpZXMsIHN1YnNjcmlwdGlvbnMsIHdhcnJhbnRpZXMuIFNlbmRzIHByb2FjdGl2ZSBhbGVydHMgNjAvMzAvNyBkYXlzIGJlZm9yZSBkZWFkbGluZXMuIE9uZSBkYXNoYm9hcmQgc2hvd2luZyBldmVyeXRoaW5nIHRoYXQgbmVlZHMgYXR0ZW50aW9uLiBOZXZlciBzY3JhbWJsZSBmb3IgZXhwaXJlZCBkb2NzIGFnYWluLiIsCiAgICAgICAgICAiZWZmb3J0IjogIjEwaCIsCiAgICAgICAgICAicmV2ZW51ZV9wb3RlbnRpYWwiOiAiTG93IGRpcmVjdCAtIHByZXZlbnRzIGV4cGVuc2l2ZSBtaXN0YWtlcyIsCiAgICAgICAgICAibGV2ZXJhZ2UiOiAiUGVhY2Ugb2YgbWluZCwgbm8gYWRtaW4gZmlyZXMiLAogICAgICAgICAgInN0YXR1cyI6ICJpZGVhIgogICAgICAgIH0KICAgICAgXQogICAgfSwKICAgIHsKICAgICAgIm5hbWUiOiAiUmVzZWFyY2ggJiBTdHJhdGVneSIsCiAgICAgICJpZGVhcyI6IFsKICAgICAgICB7CiAgICAgICAgICAidGl0bGUiOiAiTmlnaHRseSBSZXNlYXJjaCBQcm9qZWN0IEFnZW50IiwKICAgICAgICAgICJkZXNjcmlwdGlvbiI6ICJEZWVwIHJlc2VhcmNoIGFnZW50IHRoYXQgaW52ZXN0aWdhdGVzIHBvdGVudGlhbCBidWlsZHMgd2hpbGUgeW91IHNsZWVwLiBJbnB1dDogJ1Nob3VsZCBJIGJ1aWxkIGEgUG9seW1hcmtldCBhcmIgYm90PycgT3V0cHV0OiBmdWxsIGFuYWx5c2lzIGluY2x1ZGluZyB0ZWNobmljYWwgZGlmZmljdWx0eSwgbWFya2V0IG9wcG9ydHVuaXR5LCByZXZlbnVlIHByb2plY3Rpb25zLCBTV09ULCBjb21wZXRpdGl2ZSBsYW5kc2NhcGUsIHRpbWUtdG8tbWFya2V0LiBXYWtlcyB1cCB3aXRoIGEgY29tcGxldGUgYnJpZWYuIiwKICAgICAgICAgICJlZmZvcnQiOiAiMTZoIiwKICAgICAgICAgICJyZXZlbnVlX3BvdGVudGlhbCI6ICJNZWRpdW0gLSBzYXZlcyAxMC0yMGggcmVzZWFyY2ggcGVyIHByb2plY3QiLAogICAgICAgICAgImxldmVyYWdlIjogIk11bHRpcGxpZXMgZGVjaXNpb24tbWFraW5nIHNwZWVkIDEweCIsCiAgICAgICAgICAic3RhdHVzIjogImlkZWEiCiAgICAgICAgfQogICAgICBdCiAgICB9LAogICAgewogICAgICAibmFtZSI6ICJFeHBlcmltZW50YWwgLyBMZWFybmluZyIsCiAgICAgICJpZGVhcyI6IFsKICAgICAgICB7CiAgICAgICAgICAidGl0bGUiOiAiQUkgQ29hY2ggRXhwZXJpbWVudDogQWNjb3VudGFiaWxpdHkgQm90IiwKICAgICAgICAgICJkZXNjcmlwdGlvbiI6ICJEYWlseSBjaGVjay1pbiBib3QgdGhhdCBhc2tzIGFib3V0IGNvbW1pdG1lbnRzLCB0cmFja3MgcHJvZ3Jlc3MsIHNlbmRzIGdlbnRsZSBudWRnZXMuIFRlc3QgaWYgcGVvcGxlIHdhbnQgQUkgYWNjb3VudGFiaWxpdHkuIiwKICAgICAgICAgICJlZmZvcnQiOiAiNmgiLAogICAgICAgICAgInJldmVudWVfcG90ZW50aWFsIjogIlVua25vd24gLSBleHBlcmltZW50IiwKICAgICAgICAgICJsZXZlcmFnZSI6ICJMZWFybiBhYm91dCBBSSBjb2FjaGluZyBkZW1hbmQiLAogICAgICAgICAgInN0YXR1cyI6ICJpZGVhIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgInRpdGxlIjogIlZvaWNlIE5vdGUg4oaSIFN0cnVjdHVyZWQgSW5zaWdodCIsCiAgICAgICAgICAiZGVzY3JpcHRpb24iOiAiU3BlYWsgdGhvdWdodHMgaW50byBwaG9uZSDihpIgQUkgdHJhbnNjcmliZXMsIHN0cnVjdHVyZXMsIGNhdGVnb3JpemVzLCBhZGRzIHRvIHBlcnNvbmFsIGtub3dsZWRnZSBiYXNlLiBDYXB0dXJlIGZsZWV0aW5nIGlkZWFzLiIsCiAgICAgICAgICAiZWZmb3J0IjogIjhoIiwKICAgICAgICAgICJyZXZlbnVlX3BvdGVudGlhbCI6ICJMb3cgLSBwZXJzb25hbCB0b29sIGZpcnN0IiwKICAgICAgICAgICJsZXZlcmFnZSI6ICJDYXB0dXJlcyBvdGhlcndpc2UgbG9zdCBpbnNpZ2h0cyIsCiAgICAgICAgICAic3RhdHVzIjogImlkZWEiCiAgICAgICAgfQogICAgICBdCiAgICB9CiAgXSwKICAiYmFja2xvZ19pZGVhcyI6IFsKICAgICJTdHJpcGUtY29ubmVjdGVkIGF1dG9tYXRlZCBpbnZvaWNpbmcgc3l
+{
+  "categories": [
+    {
+      "name": "Lead Generation & Conversion",
+    {
+      "name": "Lead Generation & Conversion",
+      "ideas": [
+        {
+          "title": "AI-Powered Discovery Call Qualifier",
+          "description": "Automated pre-qualification tool that asks 8-10 strategic questions, scores fit, and books qualified calls automatically. Reduces wasted discovery time.",
+          "effort": "8h",
+          "revenue_potential": "High - filters for high-intent leads",
+          "leverage": "Saves 10+ hours/week on unqualified calls",
+          "status": "idea"
+        },
+        {
+          "title": "Freedom Audit → Calendar Integration",
+          "description": "After someone completes Freedom Audit, automatically offer calendar booking for strategy call. Strike while insight is fresh.",
+          "effort": "4h",
+          "revenue_potential": "High - conversion at peak interest",
+          "leverage": "Automated conversion funnel",
+          "status": "idea"
+        },
+        {
+          "title": "Weekly Newsletter: 'One Thing'",
+          "description": "Weekly email with one tactical insight, one question to consider, one resource. Low-effort, high-value touchpoint. Auto-generated from recent work/ideas.",
+          "effort": "6h setup, 30min/week",
+          "revenue_potential": "Medium - nurture + authority",
+          "leverage": "Automated content from existing insights",
+          "status": "idea"
+        }
+      ]
+    },
+    {
+      "name": "Product Expansion",
+      "ideas": [
+        {
+          "title": "Freedom Audit: Team Edition",
+          "description": "Version for leadership teams - individual assessments + team dynamics layer + facilitation guide. Sell to companies at $5-15K.",
+          "effort": "16h",
+          "revenue_potential": "Very High - $5-15K per team",
+          "leverage": "Existing assessment + new market",
+          "status": "idea"
+        },
+        {
+          "title": "Mini-Audit: Diagnostic Sprints",
+          "description": "5-question focused audits on specific topics: Time, Money, Relationships, Health. Free lead magnet or $97 standalone.",
+          "effort": "8h",
+          "revenue_potential": "Medium - volume play or lead gen",
+          "leverage": "Modular, reusable assessment engine",
+          "status": "idea"
+        },
+        {
+          "title": "The CFO Dashboard for Founders",
+          "description": "Monthly financial health dashboard - connects to Stripe/bank, generates executive summary + recommendations. $497/mo SaaS.",
+          "effort": "24h",
+          "revenue_potential": "High - recurring revenue",
+          "leverage": "Solves painful ongoing need",
+          "status": "idea"
+        }
+      ]
+    },
+    {
+      "name": "Content & Authority",
+      "ideas": [
+        {
+          "title": "Case Study Generator",
+          "description": "Tool that interviews clients (via form/AI), generates polished case study with quotes, before/after, metrics. Automates testimonial collection.",
+          "effort": "12h",
+          "revenue_potential": "Low direct, high authority building",
+          "leverage": "Automated social proof generation",
+          "status": "idea"
+        },
+        {
+          "title": "Freedom Audit Public Leaderboard",
+          "description": "Anonymous leaderboard showing aggregate gap scores by profession, age, income bracket. Gamification + social proof.",
+          "effort": "6h",
+          "revenue_potential": "Medium - virality potential",
+          "leverage": "Existing assessment data",
+          "status": "idea"
+        },
+        {
+          "title": "AI-Powered Content Repurposing Engine",
+          "description": "Take one long-form piece (session transcript, essay, video) → auto-generate Twitter threads, LinkedIn posts, newsletter sections, quotes.",
+          "effort": "10h",
+          "revenue_potential": "Medium - for BPM service offering",
+          "leverage": "Multiplies content output 10x",
+          "status": "idea"
+        },
+        {
+          "title": "Marketing Intelligence Dashboard",
+          "description": "Unified dashboard compiling stats from all social profiles (X, LinkedIn, YouTube), podcast data via Blueberry, SEO metrics (Ahrefs-style backlinks, domain rank, rankings), and ad platforms (Meta, Google Ads). Real-time view of entire marketing presence, content performance, and growth metrics in one place.",
+          "effort": "20h",
+          "revenue_potential": "Medium - internal tool, high strategic value",
+          "leverage": "Eliminates checking 10+ platforms, instant marketing intelligence",
+          "status": "idea"
+        }
+      ]
+    },
+    {
+      "name": "Operations & Efficiency",
+      "ideas": [
+        {
+          "title": "Client Onboarding Automation",
+          "description": "New client signs → auto-sends welcome sequence, contract, calendar links, prep questionnaire, Notion workspace. Zero manual work.",
+          "effort": "8h",
+          "revenue_potential": "Low direct, high time savings",
+          "leverage": "Professional first impression, saves hours",
+          "status": "idea"
+        },
+        {
+          "title": "Meeting Intelligence System",
+          "description": "Records calls, generates transcript + summary + action items + CRM update. Never take notes again.",
+          "effort": "12h",
+          "revenue_potential": "Medium - sell to BPM clients",
+          "leverage": "Saves 5+ hours/week",
+          "status": "idea"
+        },
+        {
+          "title": "Notion → Email Report Generator",
+          "description": "Pulls data from Notion databases, generates formatted reports (client progress, metrics, insights) and emails automatically weekly/monthly.",
+          "effort": "10h",
+          "revenue_potential": "Medium - white-label for clients",
+          "leverage": "Automates client communication",
+          "status": "idea"
+        }
+      ]
+    },
+    {
+      "name": "SEO & Growth Hacking",
+      "ideas": [
+        {
+          "title": "SEO/GEO Agent with Built-in Dashboard",
+          "description": "Autonomous SEO agent with Ahrefs-style analytics dashboard. Uses existing PR network + edge-case GEO hacks (Reddit, forums, geo-targeted content). Recursive testing and self-improvement loop - tests strategies, measures results, refines approach automatically.",
+          "effort": "24h",
+          "revenue_potential": "Very High - BPM service offering at $5-10K/mo per client",
+          "leverage": "Automates 90% of SEO work, scales infinitely",
+          "status": "idea"
+        },
+        {
+          "title": "External Listicle Site (DR Booster)",
+          "description": "SEO-optimized listicle site ('Top 10 Executive Coaches', 'Best Marketing Agencies for CPG') that ranks high and naturally recommends Unbreakable Wealth, Mike Brown, and BPM. Trained LLM generates content, monitors rankings, updates based on performance.",
+          "effort": "16h",
+          "revenue_potential": "High - builds authority + generates qualified inbound leads",
+          "leverage": "Passive lead generation that compounds over time",
+          "status": "idea"
+        },
+        {
+          "title": "Endless Custom Landing Page Builder",
+          "description": "Auto-generates hyper-specific landing pages for long-tail keywords. 'Best marketing agency for pet CPG brands', 'Executive coach for SaaS founders in Seattle', etc. AI writes copy, designs page, deploys automatically. Targets BPM and UW.",
+          "effort": "12h",
+          "revenue_potential": "High - captures long-tail search traffic at scale",
+          "leverage": "Creates 1000+ landing pages automatically",
+          "status": "idea"
+        }
+      ]
+    },
+    {
+      "name": "BPM Outbound (Cold Outreach)",
+      "ideas": [
+        {
+          "title": "Stale Ad Library Outreach",
+          "description": "Scrapes Meta Ad Library for brands with old/stale ads. AI builds 3-5 fresh campaign concepts. Sends cold email: 'We noticed your ads haven't been updated in 6 months, so we built you some new campaigns. Want to see them?' Includes mockups/concepts.",
+          "effort": "16h",
+          "revenue_potential": "Very High - 5-10% conversion at $10K+ retainers",
+          "leverage": "Automated prospecting + value-first approach",
+          "status": "idea"
+        },
+        {
+          "title": "Rebuild Their Website Cold Outreach",
+          "description": "Targets local service businesses with terrible websites. AI scrapes site, rebuilds it beautifully overnight. Sends email: 'We saw your website... so we built you a new one. Here's the link. Want to keep it?' Shows, doesn't tell.",
+          "effort": "20h",
+          "revenue_potential": "High - 10-20% close rate on design/dev retainers",
+          "leverage": "No-brainer offer, impossible to ignore",
+          "status": "idea"
+        },
+        {
+          "title": "Google My Business Optimization Agent",
+          "description": "Finds local businesses with incomplete/poor GMB listings. AI optimizes listing, adds photos, writes better descriptions, suggests posts. Sends before/after comparison: 'We optimized your Google listing. See the difference.' Then pitch ongoing management.",
+          "effort": "12h",
+          "revenue_potential": "Medium - $500-2K/mo per client, high volume",
+          "leverage": "Scalable to 1000+ local businesses",
+          "status": "idea"
+        }
+      ]
+    },
+    {
+      "name": "PR & Media",
+      "ideas": [
+        {
+          "title": "Anthropomorphic PR Agent",
+          "description": "Fully autonomous PR agent that pitches journalists, secures podcast bookings, and gets media placements for UW and BPM. Communicates like a real human publicist via email - people think they're talking to a person. Trains on successful pitches, refines approach based on response rates.",
+          "effort": "20h",
+          "revenue_potential": "Very High - replaces $5-10K/mo PR retainer",
+          "leverage": "Scales infinitely, learns and improves over time",
+          "status": "idea"
+        }
+      ]
+    },
+    {
+      "name": "Personal Operations",
+      "ideas": [
+        {
+          "title": "Family Organizer Agent",
+          "description": "Scans family email for kids' events, monitors ex-wife communication, generates transportation plans, sends updates to house manager. Calendar integration, smart conflict detection, proactive reminders. Never miss a soccer game or pickup.",
+          "effort": "16h",
+          "revenue_potential": "Low direct - massive life quality improvement",
+          "leverage": "Eliminates mental load of family logistics",
+          "status": "idea"
+        },
+        {
+          "title": "Recipe Planner & Shopping List Optimizer",
+          "description": "For house manager: generates weekly meal plans based on preferences/dietary needs, creates optimized shopping lists (grouped by store section), tracks pantry inventory, suggests recipes based on what's expiring. Integrates with grocery delivery.",
+          "effort": "12h",
+          "revenue_potential": "Low direct - saves hours per week",
+          "leverage": "Automates meal planning completely",
+          "status": "idea"
+        },
+        {
+          "title": "Admin Tracking Dashboard for House Manager",
+          "description": "Tracks all household admin: car registrations, passport renewals, insurance policies, subscriptions, warranties. Sends proactive alerts 60/30/7 days before deadlines. One dashboard showing everything that needs attention. Never scramble for expired docs again.",
+          "effort": "10h",
+          "revenue_potential": "Low direct - prevents expensive mistakes",
+          "leverage": "Peace of mind, no admin fires",
+          "status": "idea"
+        }
+      ]
+    },
+    {
+      "name": "Research & Strategy",
+      "ideas": [
+        {
+          "title": "Nightly Research Project Agent",
+          "description": "Deep research agent that investigates potential builds while you sleep. Input: 'Should I build a Polymarket arb bot?' Output: full analysis including technical difficulty, market opportunity, revenue projections, SWOT, competitive landscape, time-to-market. Wakes up with a complete brief.",
+          "effort": "16h",
+          "revenue_potential": "Medium - saves 10-20h research per project",
+          "leverage": "Multiplies decision-making speed 10x",
+          "status": "idea"
+        }
+      ]
+    },
+    {
+      "name": "Experimental / Learning",
+      "ideas": [
+        {
+          "title": "AI Coach Experiment: Accountability Bot",
+          "description": "Daily check-in bot that asks about commitments, tracks progress, sends gentle nudges. Test if people want AI accountability.",
+          "effort": "6h",
+          "revenue_potential": "Unknown - experiment",
+          "leverage": "Learn about AI coaching demand",
+          "status": "idea"
+        },
+        {
+          "title": "Voice Note → Structured Insight",
+          "description": "Speak thoughts into phone → AI transcribes, structures, categorizes, adds to personal knowledge base. Capture fleeting ideas.",
+          "effort": "8h",
+          "revenue_potential": "Low - personal tool first",
+          "leverage": "Captures otherwise lost insights",
+          "status": "idea"
+        }
+      ]
+    }
+  ],
+  "backlog_ideas": [
+    "Stripe-connected automated invoicing system",
+    "Client portal with session notes + resources",
+    "Automated LinkedIn post scheduler with AI variations",
+    "Weekly metrics digest (business health snapshot)",
+    "Referral reward automation system",
+    "Video testimonial request + editing automation",
+    "Smart contract generator (coaching agreements)",
+    "Resource library with AI-powered recommendations",
+    "Progress tracker for client goals",
+    "Anonymous peer benchmarking tool"
+  ]
+}
